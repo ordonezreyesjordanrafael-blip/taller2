@@ -1,13 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package ec.edu.espoch.mavenproject15;
-
-/**
- *
- * @author JORDAN
- */
 public class ADMINISTRADOR {
+        public int idadmin;
+    public String nombreadmin;
     
+        public void generarInforme() {}
+
+    public boolean validarTransacciones() {
+        return true;
+    }
+
 }

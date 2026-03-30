@@ -1,13 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package ec.edu.espoch.mavenproject15;
 
-/**
- *
- * @author JORDAN
- */
 public class MEDICO {
+      public int idmedico;
+    public String nombremedico;
+    public String especialidad;
+    public boolean desocupado;
     
+        public void revisarPaciente(int idPaciente) {}
+    public void tratamiento(int idPaciente) {}
+    public void examenLaboratorio(int idPaciente) {}
 }

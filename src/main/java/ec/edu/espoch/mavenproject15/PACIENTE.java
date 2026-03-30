@@ -1,13 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package ec.edu.espoch.mavenproject15;
 
-/**
- *
- * @author JORDAN
- */
 public class PACIENTE {
-    
+        public int idpaciente;
+    public String nombrepaciente;
+    public int fechanacimiento;
+    public String historialmedico;
+    public String salud;
+    public String alergia;
+    public boolean seguroactivo;
+
+    public void registrarse() {}
+
+    public boolean alergias(String medicamento) {
+        return alergia.contains(medicamento);}
+
+    public void estado(String nuevoEstado) {}
 }

@@ -1,13 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package ec.edu.espoch.mavenproject15;
 
-/**
- *
- * @author JORDAN
- */
 public class CITA {
+        public int idcita;
+    public int idpaciente;
+    public int idmedico;
+    public boolean citaconfirmada;
     
+        public void confirmarCita() {}
+    public void cancelarCita() {}
+public boolean medicoDisponible(int idMedico) {
+        return true;}
 }

@@ -1,13 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package ec.edu.espoch.mavenproject15;
-
-/**
- *
- * @author JORDAN
- */
 public class LABORATORIO {
+       public int idexamen;
+    public int idpaciente;
+    public String tipoexamen;
+    public boolean muestra;
+    public String resultado;
+    public boolean terminado;
     
+        public boolean procesarexamen() {
+        return true;}
+
+    public void subirresultado(String resultado) {}
+
+    public boolean estaListo() {
+        return terminado;
+    }
 }

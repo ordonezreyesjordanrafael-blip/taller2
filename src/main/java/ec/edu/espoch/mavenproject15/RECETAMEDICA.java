@@ -1,13 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package ec.edu.espoch.mavenproject15;
-
-/**
- *
- * @author JORDAN
- */
 public class RECETAMEDICA {
+      public int idreceta;
+    public int idpaciente;
+    public int idmedico;
+    public int idmedicamento;
+    public String dosis;
     
+        public boolean esValida() {
+        return true;
+    }
+
+    public void generarReceta() {}
 }

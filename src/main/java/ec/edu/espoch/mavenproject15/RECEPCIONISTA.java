@@ -1,13 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package ec.edu.espoch.mavenproject15;
 
-/**
- *
- * @author JORDAN
- */
+package ec.edu.espoch.mavenproject15;
 public class RECEPCIONISTA {
+        public String idrecepcionista;
+    public String nombre;
     
+        public void registrarpaciente(String paciente) {}
+
+    public void hacercita(int idPaciente, int idMedico) {}
+
+    public void seguropaciente(int idPaciente) {}
 }
